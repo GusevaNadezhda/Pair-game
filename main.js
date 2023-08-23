@@ -3,7 +3,6 @@
 (function(){
 
 const field = document.querySelector('#field')
-console.log(field)
 let count;
 let array;
 let randomArray;

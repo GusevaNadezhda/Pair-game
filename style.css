@@ -28,25 +28,26 @@ body {
   max-width: 2300px;
   height: 100vh;
   margin: 0 auto;
-  padding: 50px;
+  padding: 30px;
   background-image: url(img/fon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .title{
-  margin: 220px auto;
+  margin: 0 auto;
+  padding-top: 150px;
   width: max-content;
-  font-size: 150px;
+  font-size: 100px;
   text-align: center;
     /* делаем цветные полосы по тексту */
-  background: linear-gradient(315deg, #f9c722 0%, #62451a 74%);
+  background: linear-gradient(315deg, #62451a 0%, #f9c722 74%);
   /* обрезаем фон по контуру букв */
   -webkit-background-clip: text;
   /* делаем заголовок прозрачным, чтобы был виден цветной фон */
   color: transparent;
 }
-
+/* linear-gradient(315deg, #f9c722 0%, #62451a 74%); */
 .form{
   position: absolute;
   top: 40%;
